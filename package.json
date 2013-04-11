@@ -1,0 +1,32 @@
+{
+  "name": "example-plugin",
+  "version": "0.0.1",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "undefined/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "hoek": "0.5.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "hapi": "1.0.0"
+  },
+  "peerDependencies": {
+    "hapi": "1.0.0"
+  },
+  "keywords": [
+    "hapi",
+    "plugin"
+  ]
+}
